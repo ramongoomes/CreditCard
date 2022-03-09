@@ -1,0 +1,81 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+  body {
+      display: flex;
+      background-color: rgb(36, 36, 36);
+      font-family: 'Fredoka', sans-serif;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  
+  .content {
+      padding: 100px;
+  }
+  
+  .container {
+      background: #820ad1;
+      background: linear-gradient(140deg, rgba(130, 10, 209, 1) 0%, rgba(120, 19, 186, 1) 49%, rgba(65, 7, 103, 1) 100%);
+      padding: 1em;
+      border-radius: 10px;
+      width: 15em;
+      height: 25em;
+      box-shadow: 5px 8px 8px #000;
+  }
+  
+  .container .label-card {
+      padding: 10px 0 0 5px;
+      display: flex;
+      position: absolute;
+  }
+  
+  .container .label-card .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+  }
+  
+  .container .label-card .circle.yellow {
+      background: rgb(209, 255, 138);
+      background: linear-gradient(90deg, rgba(209, 255, 138, 0) 0%, rgba(218, 144, 33, 1) 26%, rgba(218, 144, 33, 1) 100%);
+      position: relative;
+      left: -15px;
+  }
+  
+  .container .label-card .circle.red {
+      background: rgb(155, 22, 17);
+      position: relative;
+  }
+  
+  .container .label-card .chip {
+      position: relative;
+      top: 25px;
+      left: 15px;
+      width: 45px;
+      height: 65px;
+      border: solid 0.1px rgba(0, 0, 0, 0.534);
+      border-radius: 10%;
+      background: rgb(83, 90, 91);
+      background: linear-gradient(25deg, rgba(83, 90, 91, 1) 0%, rgba(153, 150, 145, 1) 100%);
+  }
+  
+  .container .botton-card {
+      display: flex;
+      position: absolute;
+  }
+  
+  .container .botton-card p {
+      position: relative;
+      top: 16.5em;
+      color: rgb(178, 187, 189);
+      font-weight: 300;
+  }
+  
+  .container .botton-card span {
+      position: relative;
+      top: 6.3em;
+      right: 125px;
+      color: #995ac4;
+      font-weight: 400;
+      font-size: 50px;
+  }
